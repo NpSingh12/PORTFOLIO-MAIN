@@ -123,6 +123,9 @@ const nextConfig = {
 
   // Add output export configuration
   output: "export",
+  images: {
+    unoptimized: true, // Disable Next.js Image Optimization
+  },
 };
 
 module.exports = nextConfig;
