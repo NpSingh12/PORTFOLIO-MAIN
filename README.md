@@ -1,3 +1,6 @@
+Here's your updated README with your repository and live demo link correctly set:
+
+```md
 <div align="center">
 
 ![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Portfolio%20Website&fontSize=80&animation=fadeIn&fontAlignY=35)
@@ -10,8 +13,8 @@
   <a href="#tech-stack">Tech Stack</a>
 </p>
 
-[![GitHub license](https://img.shields.io/github/license/lohitkolluri/Portfolio?style=flat-square)](LICENSE)
-[![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Flohit.is-a.dev)](https://lohit.is-a.dev)
+[![GitHub license](https://img.shields.io/github/license/NpSingh12/PORTFOLIO-MAIN?style=flat-square)](LICENSE)
+[![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fportfolio-narinder.vercel.app)](https://portfolio-narinder.vercel.app)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
 
@@ -49,7 +52,7 @@ mindmap
 
 ## 🚀 Demo
 
-Experience the live portfolio at [https://lohit.is-a.dev](https://lohit.is-a.dev)
+Experience the live portfolio at [https://portfolio-narinder.vercel.app](https://portfolio-narinder.vercel.app)
 
 ## 📸 Screenshots
 
@@ -61,12 +64,12 @@ Experience the live portfolio at [https://lohit.is-a.dev](https://lohit.is-a.dev
 
 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/lohitkolluri/Portfolio
+git clone https://github.com/NpSingh12/PORTFOLIO-MAIN
 ```
 
 2️⃣ Navigate to project directory:
 ```bash
-cd Portfolio
+cd PORTFOLIO-MAIN
 ```
 
 3️⃣ Install dependencies:
@@ -131,9 +134,9 @@ npm run dev
 
 <div align="center">
 
-MIT License © [Lohit Kolluri](LICENSE)
+MIT License © [Narinder Pal Singh](LICENSE)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 
 </div>
-# PORTFOLIO-MAIN
+```
