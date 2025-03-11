@@ -48,6 +48,7 @@ function Loader({ isLoading, setIsLoading }: LoaderProps) {
     <AnimatePresence>
       {isLoading && (
         <motion.div className="loader" initial="hidden" animate="visible" exit="exit">
+          {/* <img src="/favicon.png" alt="Loading..." width="50" height="50" /> */}
           <motion.svg
             id="logo"
             xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +56,7 @@ function Loader({ isLoading, setIsLoading }: LoaderProps) {
             variants={svgVariants}
             custom={0}
           >
-            <title>Lohit Kolluri</title>
+            <title>Narinder Pal Singh</title>
             <defs>
               <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" style={{ stopColor: '#8892AF', stopOpacity: 1 }} />
@@ -63,9 +64,9 @@ function Loader({ isLoading, setIsLoading }: LoaderProps) {
               </linearGradient>
             </defs>
             <g>
-              {/* Letter L */}
+              {/* Letter N */}
               <motion.rect
-                x="15"
+                x="10"
                 y="15"
                 width="20"
                 height="70"
@@ -76,82 +77,51 @@ function Loader({ isLoading, setIsLoading }: LoaderProps) {
                 custom={1}
               />
               <motion.rect
-                x="15"
-                y="65"
+                x="10"
+                y="15"
                 width="50"
                 height="20"
                 fill="url(#grad1)"
                 stroke="#8892AF"
                 strokeWidth="2"
-                variants={svgVariants}
-                custom={1.5}
               />
-
-              {/* Letter K */}
-              <motion.path
-                d="M 65 15 L 65 55 L 45 35 L 65 15 L 85 15 L 65 55 L 85 95 L 65 95 L 65 55"
+              <motion.rect
+                x="40"
+                y="15"
+                width="20"
+                height="70"
                 fill="url(#grad1)"
                 stroke="#8892AF"
                 strokeWidth="2"
+              />
+
+              {/* Letter P */}
+              <motion.rect
+                x="65"
+                y="15"
+                width="20"
+                height="70"
+                fill="url(#grad1)"
+                stroke="#8892AF"
+                strokeWidth="2"
+              />
+              <motion.circle
+                cx="80"
+                cy="35"
+                r="15"
+                fill="url(#grad1)"
+                stroke="#8892AF"
+                strokeWidth="2"
+              />
+
+              {/* Letter S */}
+              <motion.path
+                d="M 90 20 Q 70 5, 50 20 T 30 40 Q 50 60, 70 75 T 90 85"
+                fill="none"
+                stroke="#8892AF"
+                strokeWidth="5"
                 variants={pathVariants as Variants}
               />
-
-              {/* Additional Shapes */}
-              <motion.circle
-                cx="25"
-                cy="25"
-                r="5"
-                fill="#CCD6F6"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ repeat: Infinity, repeatType: 'reverse', duration: 2 }}
-              />
-              <motion.circle
-                cx="75"
-                cy="75"
-                r="5"
-                fill="#CCD6F6"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ repeat: Infinity, repeatType: 'reverse', duration: 2, delay: 0.5 }}
-              />
-              <motion.polygon
-                points="50,10 60,30 40,30"
-                fill="#CCD6F6"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1, rotate: 360 }}
-                transition={{ repeat: Infinity, repeatType: 'reverse', duration: 5 }}
-              />
-              <motion.polygon
-                points="30,90 40,70 20,70"
-                fill="#CCD6F6"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1, rotate: 360 }}
-                transition={{ repeat: Infinity, repeatType: 'reverse', duration: 5, delay: 1 }}
-              />
-
-              {/* Glowing Effect */}
-              <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-                <feGaussianBlur stdDeviation="3.5" result="coloredBlur" />
-                <feMerge>
-                  <feMergeNode in="coloredBlur" />
-                  <feMergeNode in="SourceGraphic" />
-                </feMerge>
-              </filter>
-              <motion.circle
-                cx="50"
-                cy="50"
-                r="40"
-                fill="none"
-                stroke="#CCD6F6"
-                strokeWidth="2"
-                filter="url(#glow)"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ repeat: Infinity, repeatType: 'reverse', duration: 2 }}
-              >
-                <animate attributeName="r" values="40;45;40" dur="2s" repeatCount="indefinite" />
-              </motion.circle>
             </g>
           </motion.svg>
         </motion.div>

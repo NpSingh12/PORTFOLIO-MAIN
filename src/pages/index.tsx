@@ -112,11 +112,11 @@ function Index() {
     <div className="app">
       <Head>
         <title>Narinder Pal Singh&apos;s Portfolio</title>
-        <meta name="description" content="Lohit's personal portfolio website" />
-        <link rel="canonical" href="https://lohit.is-a.dev" />
-        <meta property="og:title" content="Lohit's Portfolio" />
-        <meta property="og:description" content="Lohit's personal portfolio website" />
-        <meta property="og:url" content="https://lohit.is-a.dev" />
+        <meta name="description" content="Narinder Pal Singh's personal portfolio website" />
+        <link rel="canonical" href="https://narinder.is-a.dev" />
+        <meta property="og:title" content="Narinder Pal Singh's Portfolio" />
+        <meta property="og:description" content="Narinder Pal Singh's personal portfolio website" />
+        <meta property="og:url" content="https://narinder.is-a.dev" />
         <link rel="shortcut icon" href="/favicon.png" />
         <meta
           name="google-site-verification"
